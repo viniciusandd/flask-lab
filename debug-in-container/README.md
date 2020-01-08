@@ -46,7 +46,7 @@
 
 10. Para testar, inicie um browser e passe a seguinte url: `http://localhost:8000`. Ou através da linha de comando com `curl http://localhost:8000`.
 
-## Criando o ambiente de desenvolvimento
+## Criando o ambiente de produção
 
 O ambiente de produção será criado em cima do ambiente de desenvolvimento.
 
