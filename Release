@@ -1,0 +1,9 @@
+FROM debug-in-container:development
+
+ENV FLASK_APP=app.py
+ENV FLASK_ENV=production
+ENV FLASK_DEBUG=0
+
+COPY app.py /var/www/app
+
+CMD flask run -h 0.0.0.0 -p 5000
