@@ -172,4 +172,8 @@ env.bak/
 venv.bak/
 pip-selfcheck.json
 
+### VSCode ###
+
+.vscode/settings.json
+
 # End of https://www.gitignore.io/api/flask,python,virtualenv
