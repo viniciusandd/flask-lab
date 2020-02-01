@@ -1,0 +1,9 @@
+FROM restapi:development
+
+ENV FLASK_APP=restapi/app.py
+ENV FLASK_ENV=production
+ENV FLASK_DEBUG=0
+
+COPY restapi /var/www/app/
+
+CMD flask run -h 0.0.0.0 -p 5000
