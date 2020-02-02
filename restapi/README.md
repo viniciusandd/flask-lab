@@ -21,3 +21,17 @@ O projeto almeja:
 
 - Estruturar a aplicação [OK]
 - Criar um ambiente de desenvolvimento e produção utilizando containers [OK]
+- Definir a api que será utilizada [OK]
+- Adicionar a extensão para o banco de dados (SQLAlchemy) [OK]
+- Adicionar a extensão para migrações (Flask-Migrate) [OK]
+- Criar as models do projeto [OK]
+- Criar um banco de dados
+
+## Api que será utilizada para buscar os dados
+
+- https://rickandmortyapi.com/api/
+
+### Rotas utilizadas
+
+- https://rickandmortyapi.com/api/characters
+- https://rickandmortyapi.com/api/episodes

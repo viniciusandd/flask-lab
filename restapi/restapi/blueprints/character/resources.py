@@ -1,7 +1,7 @@
 from flask import jsonify
 from flask_restful import Resource
 
-class Beer(Resource):
+class Character(Resource):
     def get(self):
         return jsonify([
             {
@@ -16,8 +16,8 @@ class Beer(Resource):
             }
         ])
 
-class SingleBeer(Resource):
-    def get(self, beer_id):
+class SingleCharacter(Resource):
+    def get(self, character_id):
         return jsonify([
             {
                 "id": 1,
