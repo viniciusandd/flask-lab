@@ -20,4 +20,4 @@ O projeto almeja:
 ## Passo-a-passo do desenvolvimento
 
 - Estruturar a aplicação [OK]
-- Criar um ambiente de desenvolvimento e produção utilizando containers
+- Criar um ambiente de desenvolvimento e produção utilizando containers [OK]
