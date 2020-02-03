@@ -27,10 +27,14 @@ O projeto almeja:
 - Criar as models do projeto [OK]
 - Adicionar uma extensão de comandos
 - Adicionar um comando para criar o banco de dados [OK]
-- Criar um banco de dados [OK]
+- Criar um banco de dados (SQLITE) [OK]
 - Adicionar comando para dropar e popular o banco de dados [OK]
 - Criar endpoints que retornam todos os personagens e todos os episódios [OK]
 - Criar endpoints que buscam personagens e episódios por id [OK]
+- Criar um endpoint que faz requisições http para uma api pública e persiste os dados retornados
+- Migrar para um banco de dados Postgres
+- Adicionar uma extensão de migrações de banco de dados
+- Simular o deploy com o watchtower
 
 ## Api que será utilizada para buscar os dados
 
