@@ -1,27 +1,15 @@
-from flask import jsonify
+from flask import jsonify, abort
 from flask_restful import Resource
+from restapi.models.character import Character
 
-class Character(Resource):
+class CharacterResource(Resource):
     def get(self):
-        return jsonify([
-            {
-                "id": 1,
-                "name": "Buzz",
-                "description": "A light, crisp and bitter IPA brewed with English and American hops."                
-            },
-            {
-                "id": 2,
-                "name": "Trashy Blonde",
-                "description": "A titillating, neurotic, peroxide punk of a Pale Ale."
-            }
-        ])
+        characters = Character.query.all() or abort(204)
+        return jsonify(
+            {"characters": [character.to_dict() for character in characters]}
+        )
 
-class SingleCharacter(Resource):
+class SingleCharacterResource(Resource):
     def get(self, character_id):
-        return jsonify([
-            {
-                "id": 1,
-                "name": "Buzz",
-                "description": "A light, crisp and bitter IPA brewed with English and American hops."                
-            }
-        ])
+        character = Character.query.filter_by(id=character_id).first() or abort(404)
+        return jsonify(character.to_dict())

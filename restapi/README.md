@@ -25,7 +25,12 @@ O projeto almeja:
 - Adicionar a extensão para o banco de dados (SQLAlchemy) [OK]
 - Adicionar a extensão para migrações (Flask-Migrate) [OK]
 - Criar as models do projeto [OK]
-- Criar um banco de dados
+- Adicionar uma extensão de comandos
+- Adicionar um comando para criar o banco de dados [OK]
+- Criar um banco de dados [OK]
+- Adicionar comando para dropar e popular o banco de dados [OK]
+- Criar endpoints que retornam todos os personagens e todos os episódios [OK]
+- Criar endpoints que buscam personagens e episódios por id [OK]
 
 ## Api que será utilizada para buscar os dados
 
@@ -33,5 +38,5 @@ O projeto almeja:
 
 ### Rotas utilizadas
 
-- https://rickandmortyapi.com/api/characters
-- https://rickandmortyapi.com/api/episodes
+- https://rickandmortyapi.com/api/character
+- https://rickandmortyapi.com/api/episode
