@@ -36,6 +36,7 @@ O projeto almeja:
 - Criar um crud completo de personagens [OK]
 - Criar um crud completo de episódios [OK]
 - Criar um endpoint que faz requisições http para uma api pública e persiste os dados retornados [OK]
+- Executar o Postgres dentro de um container docker [OK]
 - Migrar para um banco de dados Postgres
 - Adicionar uma extensão de migrações de banco de dados
 - Simular o deploy com o watchtower
