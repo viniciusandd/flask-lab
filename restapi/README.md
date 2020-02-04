@@ -31,6 +31,10 @@ O projeto almeja:
 - Adicionar comando para dropar e popular o banco de dados [OK]
 - Criar endpoints que retornam todos os personagens e todos os episódios [OK]
 - Criar endpoints que buscam personagens e episódios por id [OK]
+- Adicionar um serializador para facilitar a manipulação/persistência de dados [OK]
+- Adicionar os schemas (representaçãoes das models utilizada pelo serializador) [OK]
+- Criar um crud completo de personagens [OK]
+- Criar um crud completo de episódios [OK]
 - Criar um endpoint que faz requisições http para uma api pública e persiste os dados retornados
 - Migrar para um banco de dados Postgres
 - Adicionar uma extensão de migrações de banco de dados
