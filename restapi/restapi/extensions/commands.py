@@ -6,9 +6,9 @@ def init_app(app):
     @app.cli.command()
     def populatedb():
         characters = [
-            Character(id=1, name='Rick Sanchez', gender='Male', specie='Human'),
-            Character(id=2, name='Morty Smith', gender='Male', specie='Human'),
-            Character(id=3, name='Summer Smith', gender='Female', specie='Human')
+            Character(id=1, name='Rick Sanchez', gender='Male', species='Human'),
+            Character(id=2, name='Morty Smith', gender='Male', species='Human'),
+            Character(id=3, name='Summer Smith', gender='Female', species='Human')
         ]
         db.session.bulk_save_objects(characters)
 

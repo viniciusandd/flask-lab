@@ -35,7 +35,7 @@ O projeto almeja:
 - Adicionar os schemas (representaçãoes das models utilizada pelo serializador) [OK]
 - Criar um crud completo de personagens [OK]
 - Criar um crud completo de episódios [OK]
-- Criar um endpoint que faz requisições http para uma api pública e persiste os dados retornados
+- Criar um endpoint que faz requisições http para uma api pública e persiste os dados retornados [OK]
 - Migrar para um banco de dados Postgres
 - Adicionar uma extensão de migrações de banco de dados
 - Simular o deploy com o watchtower

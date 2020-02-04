@@ -11,7 +11,7 @@ class CharacterResource(Resource):
     
     def post(self):
         cs = CharacterSchema()
-        character = cs.load(request.json)        
+        character = cs.load(request.json)
         db.session.add(character)
         db.session.commit()
         return cs.jsonify(character)
