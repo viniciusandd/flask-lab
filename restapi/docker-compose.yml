@@ -1,0 +1,27 @@
+version: "3.3"
+services: 
+    db:
+        image: postgres
+        container_name: restapi-db
+        ports: 
+            - "5432:5432"
+        volumes: 
+            - /home/vinicius/Documentos/databases/docker_volumes:/var/lib/postgresql/data
+        environment: 
+            POSTGRES_PASSWORD: docker
+        networks: 
+            - restapi_network
+    api:
+        build: 
+            context: "."
+            dockerfile: "Release"
+        container_name: "restapi"
+        ports: 
+            - "5000:5000"
+        networks: 
+            - restapi_network
+        depends_on: 
+            - db
+networks:
+    restapi_network:
+        driver: bridge

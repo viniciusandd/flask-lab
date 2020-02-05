@@ -16,7 +16,7 @@ Mako==1.1.1
 MarkupSafe==1.1.1
 marshmallow==3.4.0
 marshmallow-sqlalchemy==0.21.0
-pkg-resources==0.0.0
+psycopg2-binary==2.8.4
 ptvsd==4.3.2
 python-box==3.4.6
 python-dateutil==2.8.1

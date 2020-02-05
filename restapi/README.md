@@ -37,9 +37,11 @@ O projeto almeja:
 - Criar um crud completo de episódios [OK]
 - Criar um endpoint que faz requisições http para uma api pública e persiste os dados retornados [OK]
 - Executar o Postgres dentro de um container docker [OK]
-- Migrar para um banco de dados Postgres
-- Adicionar uma extensão de migrações de banco de dados
+- Migrar para um banco de dados Postgres [OK]
+- Adicionar uma extensão de migrações de banco de dados [OK]
+- Ambiente de desenvolvimento conectando no SQLITE e de produção no POSTGRES [OK]
 - Simular o deploy com o watchtower
+- Criar um docker-compose para subir o ambiente de desenvolvimento
 
 ## Api que será utilizada para buscar os dados
 
