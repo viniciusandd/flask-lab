@@ -25,7 +25,7 @@ O projeto almeja:
 - Adicionar a extensão para o banco de dados (SQLAlchemy) [OK]
 - Adicionar a extensão para migrações (Flask-Migrate) [OK]
 - Criar as models do projeto [OK]
-- Adicionar uma extensão de comandos
+- Adicionar uma extensão de comandos [OK]
 - Adicionar um comando para criar o banco de dados [OK]
 - Criar um banco de dados (SQLITE) [OK]
 - Adicionar comando para dropar e popular o banco de dados [OK]
@@ -40,8 +40,8 @@ O projeto almeja:
 - Migrar para um banco de dados Postgres [OK]
 - Adicionar uma extensão de migrações de banco de dados [OK]
 - Ambiente de desenvolvimento conectando no SQLITE e de produção no POSTGRES [OK]
-- Simular o deploy com o watchtower
-- Criar um docker-compose para subir o ambiente de desenvolvimento
+- Simular o deploy com o watchtower [OK]
+- Criar um docker-compose para subir o ambiente de desenvolvimento [OK]
 
 ## Api que será utilizada para buscar os dados
 

@@ -1,4 +1,4 @@
-FROM restapi:development
+FROM viniciusandd/restapi:development
 
 ENV FLASK_APP=restapi/app.py
 ENV FLASK_ENV=production
